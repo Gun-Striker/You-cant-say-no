@@ -5,7 +5,10 @@ const noBtn = document.querySelector('.no-btn');
 const wrapperRect = wrapper.getBoundingClientRect();
 const noBtnRect = noBtn.getBoundingClientRect();
 yesBtn.addEventListener('click', () => {
-    question.innerHTML = 'Lets walk together and Call it a date :)';
+    question.innerHTML = 'OKKKAAYYY!!! 😁✨';
+    yesBtn.style.display = 'none';
+    noBtn.style.display = 'none';
+    icon.style.display = 'none';
 });
 noBtn.addEventListener('mouseover', () => {
     const i = Math.floor(Math.random() * (wrapperRect.width - noBtnRect.width)) + 1;
