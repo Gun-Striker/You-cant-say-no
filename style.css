@@ -69,3 +69,6 @@ button:nth-child(2) {
     margin-right: -200px;
     color: #7d2ae8;
 }
+.question {
+    transition: opacity 0.5s ease;
+  }
